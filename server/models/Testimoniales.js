@@ -4,7 +4,7 @@ const db = require("../config/database");
 
 const Testimonial = db.define("testimoniales", {
   id: {
-    type: Sequelize.INT,
+    type: Sequelize.INTEGER,
   },
   nombre: {
     type: Sequelize.STRING,
