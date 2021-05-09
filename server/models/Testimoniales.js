@@ -3,17 +3,18 @@ const Sequelize = require("sequelize");
 const db = require("../config/database");
 
 const Testimonial = db.define("testimoniales", {
-  id: {
-    type: Sequelize.INTEGER,
+  id: {autoIncrement:true,
+    primaryKey:true,
+    type: Sequelize.INTEGER
   },
   nombre: {
-    type: Sequelize.STRING,
+    type: Sequelize.STRING
   },
   correo: {
-    type: Sequelize.STRING,
+    type: Sequelize.STRING
   },
   mensaje: {
-    type: Sequelize.STRING,
+    type: Sequelize.STRING
   },
 });
 
