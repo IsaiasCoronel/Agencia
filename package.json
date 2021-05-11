@@ -7,7 +7,7 @@
     "dev": "nodemon server",
     "start": "node server"
   },
-  "author": "Fabricio Palavecino",
+  "author": "Isaias Coronel",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
